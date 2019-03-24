@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main14Activity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Recommended book list for UPSC Preparation"
+    android:textSize="25dp"
+    android:textStyle="bold"
+    android:background="#FFA07A"/>
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="HISTORY"
+    android:textSize="25dp"
+    android:textStyle="bold"
+    android:textColor="#000000"/>
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="1.Ancient India RS Sharma
+2.Medieval India Sathish Chandra
+3.Modern India Bipan Chandra
+4.Brief History of Modern India (Spectrum)
+5.History of World by Arjun Dev"
+        android:textSize="25dp"/>
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            app:srcCompat="@drawable/book1"
+            android:layout_marginLeft="50dp"/>
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text ="GEOGRAPHY"
+    android:textSize="25dp"
+    android:textStyle="bold"
+    android:textColor="#000000"/>
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="
+1.Contemporary India (9th and 10th standard)
+2.Fundamentals of Physical Geography (11th Standard)
+3.India Physical environment (11th Standard)
+4.Fundamentals of Human Geography (12th Standard)
+5.India People and Economy (12th Standard)
+6.Certificate Physical and Human Geography by Goh Cheng Leong
+7.School Atlas - Oxford or Orient BlackSwan School Atlas
+"
+            android:textSize="25dp"/>
+
+        <ImageView
+            android:id="@+id/imageView8"
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            app:srcCompat="@drawable/book2"
+            android:layout_marginLeft="50dp"/>
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="INDIAN ECONOMY"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:textColor="#000000"/>
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+               android:text="(i)Economy 11th and 12th NCERTs Micro and Macroeconomics
+ (ii)Indian Economic Development
+ (iii)Indian Economy - Ramesh Singh
+ "
+            android:textSize="25dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ART AND CULTURE"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:textColor="#000000"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1.Art and Culture NCERTs (11th Standard) Introduction to Indian Art
+2.Indian Art and Culture By Nitin Singhania
+"
+            android:textSize="25dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ENVIRONMENT"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:textColor="#000000"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1.Science Biology 12th Standard NCERT (Last four Chapters 13 to 16)
+2.Shankar IAS Environment Material (Act, Policies and Convention)
+"
+            android:textSize="25dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CURRENT AFFAIRS"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:textColor="#000000"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1.The Hindu and Indian Express
+2.Yojana Magazine
+3.India Year Book - PIB Publication
+"
+            android:textSize="25dp"/>
+    </LinearLayout>
+</ScrollView>
